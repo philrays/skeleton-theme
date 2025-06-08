@@ -9,12 +9,16 @@
  */
 {
   "sections": {
+    "header": {
+      "type": "header"
+    },
     "main": {
       "type": "hello-world",
       "settings": {}
     }
   },
   "order": [
+    "header",
     "main"
   ]
 }

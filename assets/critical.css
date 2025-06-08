@@ -115,3 +115,40 @@ body {
 .shopify-section > .full-width {
   grid-column: 1 / -1;
 }
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #fff;
+}
+.header-logo img {
+  max-height: 60px;
+}
+.mega-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+}
+.mega-menu .dropdown {
+  display: none;
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem 2rem;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  min-width: 400px;
+  flex-direction: row;
+  gap: 2rem;
+}
+.mega-menu li:hover .dropdown {
+  display: flex;
+}
+.dropdown-column {
+  margin-right: 2rem;
+}
